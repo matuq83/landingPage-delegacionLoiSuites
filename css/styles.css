@@ -124,7 +124,7 @@ button:hover {
     font-family: inherit;
     font-weight: 500;
     color: rgb(0, 0, 0);
-    background-color: white;
+    background-color:#4D4D4F;
 }
 .btn:hover {
     transform: translateY(-3px);
@@ -159,7 +159,7 @@ button:hover {
 }
 a{
     text-decoration: none;
-    color:#4D4D4F;
+    color:#fff;
 }
 
 .go-top-btn{

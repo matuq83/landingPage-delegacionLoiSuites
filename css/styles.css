@@ -26,7 +26,7 @@ nav {
 }
 
 nav img {
-    border-radius: 6em;
+    border-radius: 50px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     width: 170px;
     margin-top: 50PX;
@@ -166,7 +166,7 @@ a{
     position: fixed;
     width: 50px;
     height: 50px;
-    background: #4D4D4F ;
+    background: rgba(0, 0, 0, 0.5);
     bottom: 40px;
     right: 50px;
     text-decoration: 50px;
@@ -175,4 +175,37 @@ a{
     color: white;
     font-size: 22px;
     border-radius: 6em;
+    z-index: 1100;
+}
+
+@media screen and (max-width: 992px) {
+main {
+     margin-bottom: 120px; /* Ajusta según la altura del footer */
+}
+
+nav img{
+    width: 250px;
+    margin-top: 80PX;
+}
+
+footer {
+    position: fixed;
+    bottom: 0; /* Fija el footer en la parte inferior */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    height: 100px;
+    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    background-color: #737373; /* Mantén el color actual o personalízalo */
+    padding: 10px; /* Ajusta el espacio dentro del footer */
+    text-align: center;
+}
+
+footer img{
+    width: 26%; /* Ajusta este valor según el tamaño que desees */
+    height: auto; /* Mantiene las proporciones del logo */
+}
+
+footer p{
+    font-weight: bold;
+    font-size: 14px;
+}
 }

@@ -3,7 +3,9 @@
 }
 
 html { scroll-behavior: smooth; }
-body { background: #D9D9D9; }
+body { background: #D9D9D9;
+      font-family: Open sans-serif;
+}
 
 nav {
     flex-direction: row-reverse;
@@ -49,7 +51,10 @@ nav {
   overflow: hidden;
   transition: transform .2s ease, box-shadow .2s ease;
 }
-.card-link .card-body{ 
+.card-body h3{
+  font-weight: bold;
+}
+.card-link .card-body{
     background: #fff; 
     box-shadow: 10px 10px 10px black;
 }

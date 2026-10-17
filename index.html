@@ -1,296 +1,207 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Delegación Loi Suites Recoleta Hotel</title>
-    <link rel="icon" href="./css/img.css/logo_loi_suites_delegacion.png" type="image/png" sizes="32x32">
-
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons (para ícono WhatsApp) -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-    <link rel="icon" href="./css/img.css/logo_loi_suites_delegacion.png" />
-    <link rel="stylesheet" href="./css/styles.css" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Delegación Loi Suites Recoleta Hotel</title>
+  <meta name="description" content="Portal de la Delegación Loi Suites Recoleta Hotel: escala salarial, convenio, cartilla médica, beneficios y contacto directo." />
+  <link rel="icon" href="./css/img.css/logo_loi_suites_delegacion.png" type="image/png" sizes="32x32" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
-
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm py-2">
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg site-nav">
     <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <img src="./css/img.css/logo_loi_suites_delegacion.png" alt="Logo"
-             class="rounded-circle shadow-sm logo-hover"
-             style="width:80px;height:80px;object-fit:cover;">
+      <a class="navbar-brand d-flex align-items-center gap-2 me-auto" href="#inicio">
+        <img class="logo" src="./css/img.css/logo_loi_suites_delegacion.png" alt="Logo de la Delegación" />
+        <span class="brand-title">Delegación Loi Suites<span class="brand-sub">Recoleta Hotel</span></span>
       </a>
-
-      <!-- Título centrado desktop -->
-      <div class="mx-auto text-center d-none d-lg-block">
-        <h1 class="h4 mb-0 fw-bold">DELEGACIÓN LOI SUITES RECOLETA HOTEL</h1>
-      </div>
-
-      <!-- Botón hamburguesa -->
-      <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#navCollapse"
-              aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Abrir menú">
+        <i class="bi bi-list fs-2"></i>
       </button>
-
-      <!-- Menú colapsable -->
-      <div id="navCollapse" class="collapse navbar-collapse d-lg-none">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="https://forms.gle/hWRHwcam4oUBbVF56">Útiles Escolares</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1VDjaEYP5kioJEbEh9FFMGRoPz02-iwyw/view?usp=sharing">Escala Salarial</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1bRnds2cNtMpProKGGNpJLG7_aj7Z60oT/view?usp=sharing">CCT 389/4</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1g5X8qJ_7BQYFP_cseMGEH-9FZ-T6lSi8/view?usp=sharing">Cartilla OSUTHGRA</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1Cf9zmfBEJn96g9AeB-Qrb89xn1GiBYgS/view?usp=sharing">Beneficios</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://drive.google.com/file/d/1zuB6EdWyETrbp2aWtbaFF-cAnfcGa9Hs/view?usp=sharing">Afiliación</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/delegacion.lsrecoleta/">Instagram</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://forms.gle/iDWkhvZorgE1LR1NA">Fiesta Día de la Mujer</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://forms.gle/oVQpR3n8k1UndDDd7">Fiesta Gastronómicos</a></li>
-          <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1wJtLr4JMj5fZC3V3JG-q4OXQdW1g5kUD8zUSeNAmV8I/edit?usp=sharing">Petitorios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contactos">Contactos Útiles</a></li>
+      <div id="navCollapse" class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1 pt-3 pt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#tramites">Trámites y beneficios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactos">Contactos útiles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#delegacion">La delegación</a></li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-gold" href="https://walink.co/65166e" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i>Escribinos</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Título mobile -->
-  <div class="container d-lg-none mt-3">
-    <h1 class="h4 text-center fw-bold">Delegación Loi Suites Recoleta</h1>
-  </div>
-
-  <!-- SECCIÓN VIDEO BACKGROUND -->
-  <section class="video-hero">
-    <video class="video-bg" autoplay muted loop playsinline>
-      <source src="./css/img.css/video.mp4" type="video/mp4">
+  <!-- HERO -->
+  <header id="inicio" class="hero">
+    <video autoplay muted loop playsinline aria-hidden="true">
+      <source src="./css/img.css/video.mp4" type="video/mp4" />
     </video>
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h2>Bienvenidos a Nuestro Portal Digital</h2>
+    <div class="container">
+      <h2>Tu delegación, a un toque de distancia</h2>
+      <p>Escala salarial, convenio, cartilla médica, beneficios y turnos: todo lo que necesitás como trabajador del Loi Suites Recoleta, en un solo lugar.</p>
+      <div class="d-flex flex-wrap gap-3">
+        <a class="btn btn-wa" href="https://walink.co/65166e" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>Hablar con la delegación</a>
+        <a class="btn btn-ghost" href="#tramites">Ver trámites</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- TRÁMITES -->
+    <section id="tramites" class="section">
+      <div class="container">
+        <h2 class="title">Trámites y beneficios</h2>
+        <p class="lead-s">Elegí una categoría o recorré todo. Cada tarjeta abre el documento o formulario en una pestaña nueva.</p>
+
+        <div class="filters" role="group" aria-label="Filtrar por categoría">
+          <button class="chip active" data-filter="all">Todo</button>
+          <button class="chip" data-filter="gremial">Gremial</button>
+          <button class="chip" data-filter="salud">Salud</button>
+          <button class="chip" data-filter="benef">Beneficios</button>
+        </div>
+
+        <div class="grid" id="grid">
+          <a id="afiliacion" class="tile wide t-gremial" data-cat="gremial" href="https://drive.google.com/file/d/1ttu39F3mW9QY6vRU17TcEba19-4UWPw0/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/carnet_sindical.png" alt="Carnet sindical" loading="lazy"><span class="tag">Gremial</span></div>
+            <div class="body"><div><h3>Requisitos de afiliación</h3><p>Qué necesitás para afiliarte y sumarte a la delegación.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="escala-salarial" class="tile t-gremial" data-cat="gremial" href="https://drive.google.com/file/d/1RvUMT0FAWzTrEpO99cQAYanuu0F4Nt6t/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/escala_salarial.png" alt="Escala salarial" loading="lazy"><span class="tag">Gremial</span></div>
+            <div class="body"><div><h3>Escala salarial</h3><p>Valores vigentes por categoría.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="cct-3894" class="tile t-gremial" data-cat="gremial" href="https://drive.google.com/file/d/1bRnds2cNtMpProKGGNpJLG7_aj7Z60oT/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/convenio.png" alt="Convenio colectivo" loading="lazy"><span class="tag">Gremial</span></div>
+            <div class="body"><div><h3>CCT 389/4 · FEHGRA</h3><p>Tus derechos y obligaciones, por escrito.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="petitorios" class="tile t-gremial" data-cat="gremial" href="https://docs.google.com/document/d/1wJtLr4JMj5fZC3V3JG-q4OXQdW1g5kUD8zUSeNAmV8I/edit?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/petitorios.png" alt="Petitorios" loading="lazy"><span class="tag">Gremial</span></div>
+            <div class="body"><div><h3>Petitorios</h3><p>Los pedidos presentados a la empresa.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="cartilla-osuthgra" class="tile t-salud" data-cat="salud" href="https://drive.google.com/file/d/13SNBzkPfYIicD6s93WmzM4a4ks8FdbZW/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/cartilla_medica.png" alt="Cartilla médica" loading="lazy"><span class="tag">Salud</span></div>
+            <div class="body"><div><h3>Cartilla médica OSUTHGRA</h3><p>Prestadores y centros de atención.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="beneficios-actividades" class="tile wide t-benef" data-cat="benef" href="https://drive.google.com/file/d/1AedRjjVX_uxBaQB7MJVJ2IGqqpcfEK7T/view?usp=sharing" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/actividades_beneficios.png" alt="Actividades y beneficios" loading="lazy"><span class="tag">Beneficios</span></div>
+            <div class="body"><div><h3>Beneficios y actividades</h3><p>Descuentos, turismo y propuestas para afiliados y sus familias.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="utiles-escolares" class="tile t-benef" data-cat="benef" href="https://forms.gle/hWRHwcam4oUBbVF56" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/utiles_escolares.png" alt="Útiles escolares" loading="lazy"><span class="tag">Beneficios</span></div>
+            <div class="body"><div><h3>Útiles escolares</h3><p>Completá el formulario para tu pedido.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="fiesta-mujer" class="tile t-benef" data-cat="benef" href="https://forms.gle/iDWkhvZorgE1LR1NA" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/dia de la mujer.jpg" alt="Fiesta Día de la Mujer" loading="lazy"><span class="tag">Beneficios</span></div>
+            <div class="body"><div><h3>Fiesta Día de la Mujer</h3><p>Inscribite acá.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="fiesta-gastronomicos" class="tile t-benef" data-cat="benef" href="https://forms.gle/oVQpR3n8k1UndDDd7" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/fiesta de gastronomicos.jpg" alt="Fiesta Gastronómicos" loading="lazy"><span class="tag">Beneficios</span></div>
+            <div class="body"><div><h3>Fiesta Gastronómicos</h3><p>Inscribite acá.</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+
+          <a id="instagram" class="tile t-gremial" data-cat="gremial" href="https://www.instagram.com/delegacion.lsrecoleta/" target="_blank" rel="noopener">
+            <div class="media"><img src="./css/img.css/instagram.png" alt="Instagram de la delegación" loading="lazy"><span class="tag">Novedades</span></div>
+            <div class="body"><div><h3>Instagram de la delegación</h3><p>@delegacion.lsrecoleta</p></div><span class="go"><i class="bi bi-arrow-right"></i></span></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTOS -->
+    <section id="contactos" class="section">
+      <div class="container">
+        <h2 class="title">Contactos útiles</h2>
+        <p class="lead-s">Escribinos por WhatsApp y te respondemos lo antes posible.</p>
+        <div class="contacts">
+          <a class="contact" href="https://wa.link/nn25ru" target="_blank" rel="noopener"><span class="ic"><i class="bi bi-whatsapp"></i></span><span>Turnos Hosp. Güemes<small>OSUTHGRA</small></span></a>
+          <a class="contact" href="https://wa.link/ku65n9" target="_blank" rel="noopener"><span class="ic"><i class="bi bi-whatsapp"></i></span><span>Centro Odontológico y Oftalmológico<small>Turnos y consultas</small></span></a>
+          <a class="contact" href="https://walink.co/65166e" target="_blank" rel="noopener"><span class="ic"><i class="bi bi-whatsapp"></i></span><span>WhatsApp Delegación<small>Consultas generales</small></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- LOGOS -->
+  <section class="logos" aria-label="Entidades">
+    <div class="container">
+      <div class="row-logos">
+        <img src="./css/img.css/logo2.png" alt="Logo 2">
+        <img src="./css/img.css/logo3.png" alt="Logo 3">
+        <img src="./css/img.css/logo4.png" alt="Logo 4">
+      </div>
     </div>
   </section>
 
-
-    <!-- GRID DE CARDS -->
-    <main class="py-5">
-        <div class="container">
-            <div class="row g-4">
-
-                <!-- Ejemplo de card (reemplaza los “btn” grises) -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="utiles-escolares" class="card h-100 card-link" href="https://forms.gle/hWRHwcam4oUBbVF56"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <!-- acá luego podés poner <img> -->
-                            <img src="./css/img.css/utiles_escolares.png" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Útiles Escolares</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="escala-salarial" class="card h-100 card-link"
-                        href="https://drive.google.com/file/d/1VDjaEYP5kioJEbEh9FFMGRoPz02-iwyw/view?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/escala_salarial.png"
-                                alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Escala Salarial</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="cct-3894" class="card h-100 card-link"
-                        href="https://drive.google.com/file/d/1bRnds2cNtMpProKGGNpJLG7_aj7Z60oT/view?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/convenio.png" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">CCT 389/4 - FEHGRA</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="cartilla-osuthgra" class="card h-100 card-link"
-                        href="https://drive.google.com/file/d/1g5X8qJ_7BQYFP_cseMGEH-9FZ-T6lSi8/view?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/cartilla_medica.png" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Cartilla Médica OSUTHGRA</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="beneficios-actividades" class="card h-100 card-link"
-                        href="https://drive.google.com/file/d/1Cf9zmfBEJn96g9AeB-Qrb89xn1GiBYgS/view?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/actividades_beneficios.png"
-                                alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Beneficios y Actividades</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="afiliacion" class="card h-100 card-link"
-                        href="https://drive.google.com/file/d/1zuB6EdWyETrbp2aWtbaFF-cAnfcGa9Hs/view?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/carnet_sindical.png" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Requisitos de Afiliación</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="instagram" class="card h-100 card-link"
-                        href="https://www.instagram.com/delegacion.lsrecoleta/" target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/instagram.png"
-                                alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Instagram de la Delegacion</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="fiesta-mujer" class="card h-100 card-link" href="https://forms.gle/iDWkhvZorgE1LR1NA"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/dia de la mujer.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Fiesta Día de la Mujer</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="fiesta-gastronomicos" class="card h-100 card-link" href="https://forms.gle/oVQpR3n8k1UndDDd7"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/fiesta de gastronomicos.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Fiesta Gastronómicos</h3>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <a id="petitorios" class="card h-100 card-link"
-                        href="https://docs.google.com/document/d/1wJtLr4JMj5fZC3V3JG-q4OXQdW1g5kUD8zUSeNAmV8I/edit?usp=sharing"
-                        target="_blank" rel="noopener">
-                        <div
-                            class="ratio ratio-16x9 card-img-top bg-light d-flex align-items-center justify-content-center">
-                            <img src="./css/img.css/petitorios.png" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h3 class="h6 mb-0">Petitorios</h3>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-
-            <!-- Botones de WhatsApp (alineados en fila) -->
-            <div id="contactos" class="row mt-4 g-3">
-                <div class="col-12 col-md-4">
-                    <a href="https://wa.link/nn25ru"
-                        class="btn btn-success w-100 d-flex align-items-center justify-content-center gap-2"
-                        target="_blank" rel="noopener">
-                        <i class="bi bi-whatsapp"></i> Turnos Hosp. Güemes OSUTHGRA
-                    </a>
-                </div>
-                <div class="col-12 col-md-4">
-                    <a href="https://wa.link/ku65n9"
-                        class="btn btn-success w-100 d-flex align-items-center justify-content-center gap-2"
-                        target="_blank" rel="noopener">
-                        <i class="bi bi-whatsapp"></i> Centro Odontológico y Oftalmológico
-                    </a>
-                </div>
-                <div class="col-12 col-md-4">
-                    <a href="https://walink.co/65166e"
-                        class="btn btn-success w-100 d-flex align-items-center justify-content-center gap-2"
-                        target="_blank" rel="noopener">
-                        <i class="bi bi-whatsapp"></i> Whatsapp Delegación
-                    </a>
-                </div>
-            </div>
+  <!-- FOOTER -->
+  <footer id="delegacion" class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <img class="f-logo" src="./css/img.css/logo_loi_suites_delegacion.png" alt="Logo de la Delegación">
+          <h4>Delegación Loi Suites Recoleta Hotel</h4>
+          <p class="mb-0">Representamos y acompañamos a las trabajadoras y los trabajadores del hotel. Consultas, afiliación y trámites, siempre con la delegación.</p>
         </div>
-    </main>
-
-    <!-- FOOTER (igual al tuyo) -->
-    <footer class="footer mt-auto py-4">
-        <div class="container text-center">
-            <div class="row text-center align-items-center mb-3 logos-footer">
-                <div class="col-4 col-md-4 text-md-start">
-                    <img src="./css/img.css/logo2.png" alt="Logo2">
-                </div>
-                <div class="col-4 col-md-4">
-                    <img src="./css/img.css/logo3.png" alt="Logo3">
-                </div>
-                <div class="col-4 col-md-4 text-md-end">
-                    <img src="./css/img.css/logo4.png" alt="Logo4">
-                </div>
-            </div>
-            <p class="mb-0 text-white-50">
-                © <span id="year"></span> - Made with ♥ for
-                <a class="link-light text-decoration-underline" href="https://linktr.ee/mquintana83" target="_blank"
-                    rel="noopener">Matías Quintana</a>
-            </p>
+        <div class="col-12 col-sm-6 col-lg-3 offset-lg-1">
+          <h4>Accesos</h4>
+          <ul>
+            <li><a href="#tramites">Trámites y beneficios</a></li>
+            <li><a href="https://drive.google.com/file/d/1VDjaEYP5kioJEbEh9FFMGRoPz02-iwyw/view?usp=sharing" target="_blank" rel="noopener">Escala salarial</a></li>
+            <li><a href="https://drive.google.com/file/d/1zuB6EdWyETrbp2aWtbaFF-cAnfcGa9Hs/view?usp=sharing" target="_blank" rel="noopener">Afiliación</a></li>
+            <li><a href="#contactos">Contactos útiles</a></li>
+          </ul>
         </div>
-    </footer>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="https://walink.co/65166e" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-2"></i>WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/delegacion.lsrecoleta/" target="_blank" rel="noopener"><i class="bi bi-instagram me-2"></i>@delegacion.lsrecoleta</a></li>
+            <li><a href="mailto:delegacion.loisuiterecoleta@gmail.com"><i class="bi bi-envelope me-2"></i>delegacion.loisuiterecoleta@gmail.com</a></li>
+            <li><i class="bi bi-geo-alt me-2"></i>Recoleta, Buenos Aires</li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy mb-0">© <span id="year"></span> Delegación Loi Suites Recoleta Hotel · Hecho con ♥ por <a href="https://linktr.ee/mquintana83" target="_blank" rel="noopener">Matías Quintana</a></p>
+    </div>
+  </footer>
 
-    <!-- Botón Volver arriba -->
-    <a href="#" class="go-top-btn d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up"></i>
-    </a>
+  <!-- WhatsApp sticky lateral -->
+  <a class="wa-side" href="https://walink.co/65166e" target="_blank" rel="noopener" aria-label="WhatsApp Delegación">
+    <i class="bi bi-whatsapp"></i><span>WhatsApp Delegación</span>
+  </a>
 
-    <script>
-        document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        document.querySelectorAll('#navCollapse .nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                const bsCollapse = bootstrap.Collapse.getOrCreateInstance(document.getElementById('navCollapse'));
-                bsCollapse.hide();
-            });
-        });
-    </script>
+  <!-- Volver arriba -->
+  <a href="#inicio" class="go-top-btn" aria-label="Volver arriba"><i class="bi bi-arrow-up"></i></a>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Cerrar menú móvil al navegar
+    document.querySelectorAll('#navCollapse a').forEach(a => a.addEventListener('click', () => {
+      bootstrap.Collapse.getOrCreateInstance(document.getElementById('navCollapse'), {toggle:false}).hide();
+    }));
+
+    // Filtros
+    const chips = document.querySelectorAll('.chip');
+    chips.forEach(chip => chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const f = chip.dataset.filter;
+      document.querySelectorAll('#grid .tile').forEach(t => t.classList.toggle('hide', f !== 'all' && t.dataset.cat !== f));
+    }));
+
+    // Botón volver arriba
+    const top = document.querySelector('.go-top-btn');
+    addEventListener('scroll', () => top.classList.toggle('show', scrollY > 600), {passive:true});
+  </script>
 </body>
-
 </html>
